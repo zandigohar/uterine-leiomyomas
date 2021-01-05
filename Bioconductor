@@ -1,0 +1,8 @@
+#Installation of Bioconductor in R (refer to http://www.bioconductor.org/install/)
+
+# 1. Open R and enter:
+if (!requireNamespace("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+BiocManager::install(version = "3.12")
+
+# Let the compiler update all required packages too.
