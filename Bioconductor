@@ -175,3 +175,5 @@ source("https://bioconductor.org/biocLite.R")
 Install specific packages, e.g., “GenomicFeatures” and “AnnotationDbi”, with
 
 BiocInstaller::biocLite(c("GenomicFeatures", "AnnotationDbi"))
+
+# End of file
